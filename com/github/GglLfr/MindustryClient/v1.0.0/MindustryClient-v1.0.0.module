@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.GglLfr",
+    "module": "MindustryClient",
+    "version": "v1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MindustryClient-v1.0.0.jar",
+          "url": "MindustryClient-v1.0.0.jar",
+          "size": 15838,
+          "sha512": "daca03feaafbd120b70ce872f572b73f756a418cd7499f85df7c36ebe382d2a1276afd7bd789da3b3248f8d7a969ccf1258bb1e61c14b966d3e6df9438a67189",
+          "sha256": "7765c8bb7e23ef52d6400bd6c659ab3f62cc8f68d762c0fc8a58b32bb0cdfa80",
+          "sha1": "c8bdd716be0a7d516ed92d356c9583501b339a09",
+          "md5": "a83a0c583b4b491370e23222698ca345"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.GglLfr.MindustryClient",
+          "module": "info",
+          "version": {
+            "requires": "v1.0.0"
+          }
+        },
+        {
+          "group": "Anuken",
+          "module": "Mindustry",
+          "version": {
+            "requires": "v160.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MindustryClient-v1.0.0.jar",
+          "url": "MindustryClient-v1.0.0.jar",
+          "size": 15838,
+          "sha512": "daca03feaafbd120b70ce872f572b73f756a418cd7499f85df7c36ebe382d2a1276afd7bd789da3b3248f8d7a969ccf1258bb1e61c14b966d3e6df9438a67189",
+          "sha256": "7765c8bb7e23ef52d6400bd6c659ab3f62cc8f68d762c0fc8a58b32bb0cdfa80",
+          "sha1": "c8bdd716be0a7d516ed92d356c9583501b339a09",
+          "md5": "a83a0c583b4b491370e23222698ca345"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MindustryClient-v1.0.0-javadoc.jar",
+          "url": "MindustryClient-v1.0.0-javadoc.jar",
+          "size": 4175741,
+          "sha512": "8ef16d9b517b0209fcb56ea8184c4f80a91286a2f22a7fb99da138a4bc6887d0f703a5c31ba449d554ca2ac438237912d1a619d3caf1255aaa9af6fbcccce9e0",
+          "sha256": "b6b0590b5fca73feccd4922b63ace81f444a91608e82aefe45eb0c1f6afbaa53",
+          "sha1": "56a7e76fdcc51388cd919d63326284d4c7a373c9",
+          "md5": "d30a57116f75052ed83ca55801abd092"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MindustryClient-v1.0.0-sources.jar",
+          "url": "MindustryClient-v1.0.0-sources.jar",
+          "size": 6649,
+          "sha512": "dcdace3e757ff2de51e59e9ff881155e8e328ce1f6b037b0a820baa0877f87af04742dfa7a1cb85e903a84157c2a4c2c3aff0b7c4d7b34f836a2ab99f425f764",
+          "sha256": "eec80d9acf701c391a600213adfa375f90864fbb11bbcb4f7fbeb09d416a2527",
+          "sha1": "cfe51a58a8dc5e780bb899e42aaf102b0562277b",
+          "md5": "45a0a3b7129ae580957ca6b95d640002"
+        }
+      ]
+    }
+  ]
+}
