@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.GglLfr.MindustryClient</groupId>
+  <artifactId>com.github.GglLfr.MindustryClient.gradle.plugin</artifactId>
+  <version>v1.0.1</version>
+  <packaging>pom</packaging>
+  <name>MindustryClient</name>
+  <url>https://github.com/GglLfr/MindustryClient</url>
+  <inceptionYear>2026</inceptionYear>
+  <licenses>
+    <license>
+      <name>GPL-3.0-or-later</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>GitHub Issue Tracker</system>
+    <url>https://github.com/GglLfr/MindustryClient/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.GglLfr</groupId>
+      <artifactId>MindustryClient</artifactId>
+      <version>v1.0.1</version>
+    </dependency>
+  </dependencies>
+</project>
